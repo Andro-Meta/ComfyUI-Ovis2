@@ -1,0 +1,15 @@
+[project]
+name = "ovis2"
+description = "A ComfyUI custom node set for integrating [a/Ovis2](https://huggingface.co/AIDC-AI/Ovis2-34B), a powerful multimodal large language model designed to analyze images and videos."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["# Required dependencies for Ovis2 ComfyUI Nodes", "transformers>=4.46.2", "huggingface-hub>=0.23.0", "torch>=2.4.0", "pillow>=10.3.0", "flash-attn>=2.7.0", "numpy>=1.25.0"]
+
+[project.urls]
+Repository = "https://github.com/Andro-Meta/ComfyUI-Ovis2"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Ovis2"
+Icon = ""
