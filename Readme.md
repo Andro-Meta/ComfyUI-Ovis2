@@ -27,7 +27,7 @@ A ComfyUI custom node set for integrating [Ovis2](https://huggingface.co/AIDC-AI
 2. Go to the `custom_nodes` directory (create it if it doesn't exist)
 3. Clone this repository:
    ```bash
-   git clone https://github.com/YourUsername/ComfyUI-Ovis2.git
+   git clone https://github.com/Andro-Meta/ComfyUI-Ovis2.git
    ```
 4. Install the required dependencies:
    ```bash
