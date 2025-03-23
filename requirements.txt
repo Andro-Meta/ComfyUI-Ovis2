@@ -1,0 +1,7 @@
+# Required dependencies for Ovis2 ComfyUI Nodes
+transformers>=4.46.2
+huggingface-hub>=0.23.0
+torch>=2.4.0
+pillow>=10.3.0
+flash-attn>=2.7.0
+numpy>=1.25.0
