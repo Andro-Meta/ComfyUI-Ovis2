@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Publish Node to ComfyUI Registry
-        uses: comfyanonymous/publish-node-action@main
+        uses: Comfy-Org/publish-node-action@main
         with:
           registry_token: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
