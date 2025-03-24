@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comfyui-ovis2"
+version = "1.0.0"
+description = "ComfyUI custom nodes for Ovis2 multimodal model integration"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Andro-Meta", email = "your.email@example.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "transformers>=4.46.2",
+    "huggingface-hub>=0.23.0",
+    "torch>=2.4.0",
+    "pillow>=10.3.0",
+    "flash-attn>=2.7.0",
+    "numpy>=1.25.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Andro-Meta/ComfyUI-Ovis2"
+"Bug Tracker" = "https://github.com/Andro-Meta/ComfyUI-Ovis2/issues"
+
+[tool.comfyui]
+node_categories = ["Ovis2"]
+tag_override = ["ovis", "multimodal", "caption", "analysis", "video", "images", "vision", "llm"]
+title = "Ovis2 for ComfyUI"
+description = "Integration of the Ovis2 multimodal model for image and video captioning, analysis, and multimodal processing"
